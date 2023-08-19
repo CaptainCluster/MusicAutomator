@@ -30,6 +30,8 @@ Windows device. Although you can also put the end timer there, it's not necessar
 of this program. If you wish to end the program via task scheduler, it is possible as you can disable the endtimer
 functionality the program comes with.
 
+---
+
 <img width="590" alt="image" src="https://github.com/CaptainCluster/MusicTimer/assets/121576355/1ed8f04f-1ebe-4d3e-8649-bc63c7700923">
 
 Before you can use the program, the SETTINGS class has to be customized, as that determines how the program behaves.
