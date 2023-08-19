@@ -29,3 +29,12 @@ In order to get the program to bootup automatically, use the task scheduler prog
 Windows device. Although you can also put the end timer there, it's not necessary as that is programmed as part
 of this program. If you wish to end the program via task scheduler, it is possible as you can disable the endtimer
 functionality the program comes with.
+
+<img width="590" alt="image" src="https://github.com/CaptainCluster/MusicTimer/assets/121576355/1ed8f04f-1ebe-4d3e-8649-bc63c7700923">
+
+Before you can use the program, the SETTINGS class has to be customized, as that determines how the program behaves.
+skipInput and goBackInput determine how the playlist can be navigated. In the example, alt+v makes the program skip 
+a song and alt+b makes the program go back to the previous song. endTime determined when the program stops running. 
+directory indicates the playlist. Copy and paste the folder that contains your songs. If you wish to stop the program
+from shutting down at a certain time or want to disable user interaction with the playlist, that can be done by
+turning any of the boolean values in the SETTINGS class from True (the default value) to false.
