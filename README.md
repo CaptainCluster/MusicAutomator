@@ -1,4 +1,4 @@
-# MusicTimer
+# MusicAutomator
 
 NOTE!
 
