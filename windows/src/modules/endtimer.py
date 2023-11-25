@@ -5,10 +5,12 @@
 #has inserted.
 import schedule
 import sys
-from ..settings import SETTINGS
+from settings import SETTINGS
 
-#Determining the specifics for when the program should end
+
 def createSchedule():
+    """Determining the specifics for when the program should end
+    """
     settingsObject = SETTINGS()
     schedule.every().day.at(settingsObject.endTime).do(endProgram)
 
