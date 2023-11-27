@@ -8,6 +8,7 @@ class SETTINGS:
 
         self.directory = "" #PASTE YOUR DIRECTORY OVER HERE
 
+        #Different features that can be enabled/disabled
         self.notifyPlay     = True
         self.skipEnabled    = True
         self.endTimeEnabled = True
@@ -21,5 +22,5 @@ class SETTINGS:
         self.pauseInput     = "" #Works as both Pause and Resume
 
         #The time the program will end automatically on (%h:%m)
-        self.endTime = "23:30"   
+        self.endTime = ""
         

@@ -30,6 +30,7 @@ def userInteractions(mediaPlayer, settings, songNumber) -> int:
             #User wants to go back ==> Adjusting the song's position by n-2
             #n-2 is used instead of n-1 due to +1 being added at the end of the 2nd while-loop at playMusic()
 
+            #Functionality for going going backwards in the playlist
             if settings.goBackEnabled:
                 if keyboard.is_pressed(settings.goBackInput):
                     if songNumber != 0:
@@ -38,6 +39,7 @@ def userInteractions(mediaPlayer, settings, songNumber) -> int:
                         songNumber = -1                 #Adjusted to 0... the 2nd while-loop at playMusic function
                     break
             
+            #Functionality for pausing a song
             if settings.pauseEnabled:
                 if keyboard.is_pressed(settings.pauseInput):
                     if paused:
@@ -69,8 +71,8 @@ def playMusic() -> None:
 
         #The music player will run in this while-loop (each iteration is done when the song changes).
         while True:
-            musicFile = directoryContent[songNumber] 
-            musicFilePath = os.path.join(settings.directory, musicFile) #Merging the directory with the file name 
+            musicFile       = directoryContent[songNumber] 
+            musicFilePath   = os.path.join(settings.directory, musicFile) #Merging the directory with the file name 
 
             time.sleep(0.5) #A delay to avoid issues (for instance, skipping more than one song by sending one defined input)
 
