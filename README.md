@@ -29,7 +29,7 @@ functionality the program comes with.
 🔧How to customize the program?
 ---
 
-<img width="590" alt="image" src="https://github.com/CaptainCluster/MusicTimer/assets/121576355/1ed8f04f-1ebe-4d3e-8649-bc63c7700923">
+<img width="590" alt="image" src="https://github.com/CaptainCluster/MusicAutomator/assets/121576355/fdad7fb0-c82c-428e-af68-567a1a7dfe4a">
 
 Before you can use the program, the SETTINGS class has to be customized, as that determines how the program behaves.
 skipInput and goBackInput determine how the playlist can be navigated. In the example, alt+v makes the program skip 
